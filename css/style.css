@@ -64,17 +64,59 @@ li{
     margin: 10px 5px;
     
 }
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .container{
     max-width: 20rem;
-    padding: 5rem 0;
+    padding: 4rem 0;
 }
 .star-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: red;
+    background: var(--light-heading);
     margin: 0.5rem 0;
     border-radius: 6px;
 
 }
+.review-collection{
+    margin-top: 3rem;
+}
+.review-container{
+    background-color: var(--bg-d-card);
+    
+    margin: 1rem 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1.4rem; 
+}
+.review-container>p{
+    color: var(--para);
+    padding-bottom: 0;
+    font-size: 16.5px;
+    line-height: 20px;
+}
 
+.reviewer-info{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.reviewer-details>p{
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 18px;
+    color: var(--para);
+    
+}
+.reviewer-details>p:last-child{
+    color: var(--bg-l-card);
+    
+}
